@@ -10,7 +10,14 @@
 
 #import "QBImagePickerController.h"
 
-@interface XHCartoonCameraViewController () <QBImagePickerControllerDelegate>
+#import "GPUImage.h"
+
+@interface XHCartoonCameraViewController () <QBImagePickerControllerDelegate> {
+    GPUImageVideoCamera *videoCamera;
+    GPUImageOutput<GPUImageInput> *filter;
+    GPUImageView *filterImageView;
+    UIImageView *imageView;
+}
 
 @end
 
@@ -25,14 +32,44 @@
 }
 
 - (void)_pushPhotoEditorViewController {
-    
+    UIImage *capturePhoto = [filter imageFromCurrentlyProcessedOutput];
+    imageView.image = capturePhoto;
+    imageView.hidden = NO;
 }
 
 - (void)_filterItemSelect:(NSInteger)index {
     NSLog(@"index : %d", index);
+    [videoCamera resetBenchmarkAverage];
+    [filter removeTarget:filterImageView];
+    [videoCamera removeTarget:filter];
+    filter = nil;
+    filter = [[GPUImageAdaptiveThresholdFilter alloc] init];
+    [filter addTarget:filterImageView];
+    [videoCamera addTarget:filter];
+    [videoCamera prepareForImageCapture];
 }
 
 #pragma mark - Setup UI
+
+- (void)_setupVideoCamera {
+    CGFloat width = CGRectGetWidth(self.view.bounds);
+    filterImageView = [[GPUImageView alloc] initWithFrame:CGRectMake(0, 44, width, width)];
+    filterImageView.fillMode = kGPUImageFillModePreserveAspectRatioAndFill;
+    [self.view addSubview:filterImageView];
+    imageView = [[UIImageView alloc] initWithFrame:filterImageView.frame];
+    imageView.contentMode = UIViewContentModeScaleAspectFill;
+    [self.view addSubview:imageView];
+    imageView.hidden = YES;
+    
+    videoCamera = [[GPUImageVideoCamera alloc] initWithSessionPreset:AVCaptureSessionPreset640x480 cameraPosition:AVCaptureDevicePositionBack];
+    videoCamera.outputImageOrientation = UIInterfaceOrientationPortrait;
+    videoCamera.runBenchmark = YES;
+    
+    filter = [[GPUImageToonFilter alloc] init];
+    [videoCamera addTarget:filter];
+    
+    [filter addTarget:filterImageView];
+}
 
 - (void)_setupItemScrollToolBar {
     if (self.items.count)
@@ -91,11 +128,25 @@
     return self;
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [videoCamera startCameraCapture];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [videoCamera stopCameraCapture];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-
+    if ([self respondsToSelector:@selector(edgesForExtendedLayout)]) {
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
+    [self _setupVideoCamera];
     [self _setupItemScrollToolBar];
 }
 
