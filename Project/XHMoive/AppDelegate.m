@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "XHCustomNavigationController.h"
+#import "XHRootViewController.h"
 
 @implementation AppDelegate
 
@@ -15,6 +17,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    XHCustomNavigationController *navigationController = [[XHCustomNavigationController alloc] initWithRootViewController:[[XHRootViewController alloc] init]];
+    self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }
