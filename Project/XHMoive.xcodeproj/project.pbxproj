@@ -37,6 +37,23 @@
 		AB2F4D39189813CC006095D0 /* tabBar-camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB2F4D21189813CC006095D0 /* tabBar-camera@2x.png */; };
 		AB2F4D3A189813CC006095D0 /* MenuBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB2F4D23189813CC006095D0 /* MenuBackground@2x.png */; };
 		AB2F4D3D189813E1006095D0 /* XHCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D3C189813E1006095D0 /* XHCustomNavigationController.m */; };
+		AB2F4D5C189814E5006095D0 /* QBAssetsCollectionCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D40189814E4006095D0 /* QBAssetsCollectionCheckmarkView.m */; };
+		AB2F4D5D189814E5006095D0 /* QBAssetsCollectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D42189814E4006095D0 /* QBAssetsCollectionFooterView.m */; };
+		AB2F4D5E189814E5006095D0 /* QBAssetsCollectionOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D44189814E4006095D0 /* QBAssetsCollectionOverlayView.m */; };
+		AB2F4D5F189814E5006095D0 /* QBAssetsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D46189814E4006095D0 /* QBAssetsCollectionViewCell.m */; };
+		AB2F4D60189814E5006095D0 /* QBAssetsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D48189814E4006095D0 /* QBAssetsCollectionViewController.m */; };
+		AB2F4D61189814E5006095D0 /* QBAssetsCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D4A189814E4006095D0 /* QBAssetsCollectionViewLayout.m */; };
+		AB2F4D62189814E5006095D0 /* QBImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D4C189814E4006095D0 /* QBImagePickerController.m */; };
+		AB2F4D63189814E5006095D0 /* QBImagePickerGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D4E189814E4006095D0 /* QBImagePickerGroupCell.m */; };
+		AB2F4D64189814E5006095D0 /* QBImagePickerThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D50189814E4006095D0 /* QBImagePickerThumbnailView.m */; };
+		AB2F4D65189814E5006095D0 /* QBImagePickerController.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB2F4D52189814E4006095D0 /* QBImagePickerController.strings */; };
+		AB2F4D66189814E5006095D0 /* XHItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D57189814E5006095D0 /* XHItem.m */; };
+		AB2F4D67189814E5006095D0 /* XHItemScrollToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D59189814E5006095D0 /* XHItemScrollToolBar.m */; };
+		AB2F4D68189814E5006095D0 /* XHItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D5B189814E5006095D0 /* XHItemView.m */; };
+		AB2F4D6D189814F5006095D0 /* XHBaseCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D6A189814F5006095D0 /* XHBaseCameraViewController.m */; };
+		AB2F4D6E189814F5006095D0 /* XHCartoonCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D6C189814F5006095D0 /* XHCartoonCameraViewController.m */; };
+		AB2F4D7418981517006095D0 /* XHEaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D7118981517006095D0 /* XHEaseTableView.m */; };
+		AB2F4D7518981517006095D0 /* XHFilterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4D7318981517006095D0 /* XHFilterItem.m */; };
 		AB39F17818980E5C0014D660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB39F17718980E5C0014D660 /* Foundation.framework */; };
 		AB39F17A18980E5C0014D660 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB39F17918980E5C0014D660 /* CoreGraphics.framework */; };
 		AB39F17C18980E5C0014D660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB39F17B18980E5C0014D660 /* UIKit.framework */; };
@@ -119,6 +136,40 @@
 		AB2F4D23189813CC006095D0 /* MenuBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuBackground@2x.png"; sourceTree = "<group>"; };
 		AB2F4D3B189813E1006095D0 /* XHCustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCustomNavigationController.h; sourceTree = "<group>"; };
 		AB2F4D3C189813E1006095D0 /* XHCustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCustomNavigationController.m; sourceTree = "<group>"; };
+		AB2F4D3F189814E4006095D0 /* QBAssetsCollectionCheckmarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionCheckmarkView.h; sourceTree = "<group>"; };
+		AB2F4D40189814E4006095D0 /* QBAssetsCollectionCheckmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionCheckmarkView.m; sourceTree = "<group>"; };
+		AB2F4D41189814E4006095D0 /* QBAssetsCollectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionFooterView.h; sourceTree = "<group>"; };
+		AB2F4D42189814E4006095D0 /* QBAssetsCollectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionFooterView.m; sourceTree = "<group>"; };
+		AB2F4D43189814E4006095D0 /* QBAssetsCollectionOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionOverlayView.h; sourceTree = "<group>"; };
+		AB2F4D44189814E4006095D0 /* QBAssetsCollectionOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionOverlayView.m; sourceTree = "<group>"; };
+		AB2F4D45189814E4006095D0 /* QBAssetsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionViewCell.h; sourceTree = "<group>"; };
+		AB2F4D46189814E4006095D0 /* QBAssetsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionViewCell.m; sourceTree = "<group>"; };
+		AB2F4D47189814E4006095D0 /* QBAssetsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionViewController.h; sourceTree = "<group>"; };
+		AB2F4D48189814E4006095D0 /* QBAssetsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionViewController.m; sourceTree = "<group>"; };
+		AB2F4D49189814E4006095D0 /* QBAssetsCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionViewLayout.h; sourceTree = "<group>"; };
+		AB2F4D4A189814E4006095D0 /* QBAssetsCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionViewLayout.m; sourceTree = "<group>"; };
+		AB2F4D4B189814E4006095D0 /* QBImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBImagePickerController.h; sourceTree = "<group>"; };
+		AB2F4D4C189814E4006095D0 /* QBImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBImagePickerController.m; sourceTree = "<group>"; };
+		AB2F4D4D189814E4006095D0 /* QBImagePickerGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBImagePickerGroupCell.h; sourceTree = "<group>"; };
+		AB2F4D4E189814E4006095D0 /* QBImagePickerGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBImagePickerGroupCell.m; sourceTree = "<group>"; };
+		AB2F4D4F189814E4006095D0 /* QBImagePickerThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBImagePickerThumbnailView.h; sourceTree = "<group>"; };
+		AB2F4D50189814E4006095D0 /* QBImagePickerThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBImagePickerThumbnailView.m; sourceTree = "<group>"; };
+		AB2F4D53189814E4006095D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/QBImagePickerController.strings; sourceTree = "<group>"; };
+		AB2F4D54189814E4006095D0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/QBImagePickerController.strings; sourceTree = "<group>"; };
+		AB2F4D56189814E5006095D0 /* XHItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHItem.h; sourceTree = "<group>"; };
+		AB2F4D57189814E5006095D0 /* XHItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHItem.m; sourceTree = "<group>"; };
+		AB2F4D58189814E5006095D0 /* XHItemScrollToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHItemScrollToolBar.h; sourceTree = "<group>"; };
+		AB2F4D59189814E5006095D0 /* XHItemScrollToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHItemScrollToolBar.m; sourceTree = "<group>"; };
+		AB2F4D5A189814E5006095D0 /* XHItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHItemView.h; sourceTree = "<group>"; };
+		AB2F4D5B189814E5006095D0 /* XHItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHItemView.m; sourceTree = "<group>"; };
+		AB2F4D69189814F5006095D0 /* XHBaseCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBaseCameraViewController.h; sourceTree = "<group>"; };
+		AB2F4D6A189814F5006095D0 /* XHBaseCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBaseCameraViewController.m; sourceTree = "<group>"; };
+		AB2F4D6B189814F5006095D0 /* XHCartoonCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCartoonCameraViewController.h; sourceTree = "<group>"; };
+		AB2F4D6C189814F5006095D0 /* XHCartoonCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCartoonCameraViewController.m; sourceTree = "<group>"; };
+		AB2F4D7018981517006095D0 /* XHEaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHEaseTableView.h; sourceTree = "<group>"; };
+		AB2F4D7118981517006095D0 /* XHEaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHEaseTableView.m; sourceTree = "<group>"; };
+		AB2F4D7218981517006095D0 /* XHFilterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHFilterItem.h; sourceTree = "<group>"; };
+		AB2F4D7318981517006095D0 /* XHFilterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHFilterItem.m; sourceTree = "<group>"; };
 		AB39F17418980E5C0014D660 /* XHMoive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHMoive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB39F17718980E5C0014D660 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB39F17918980E5C0014D660 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -165,6 +216,9 @@
 		AB2F4CE7189811CE006095D0 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				AB2F4D6F18981517006095D0 /* XHEaseTableView */,
+				AB2F4D3E189814E4006095D0 /* QBImagePickerController */,
+				AB2F4D55189814E4006095D0 /* XHItemScrollToolBar */,
 				AB2F4CE8189811DC006095D0 /* GPUImage.xcodeproj */,
 			);
 			name = Vendor;
@@ -188,6 +242,10 @@
 				AB2F4CF918981346006095D0 /* XHBaseViewController.m */,
 				AB2F4CFA18981346006095D0 /* XHRootViewController.h */,
 				AB2F4CFB18981346006095D0 /* XHRootViewController.m */,
+				AB2F4D69189814F5006095D0 /* XHBaseCameraViewController.h */,
+				AB2F4D6A189814F5006095D0 /* XHBaseCameraViewController.m */,
+				AB2F4D6B189814F5006095D0 /* XHCartoonCameraViewController.h */,
+				AB2F4D6C189814F5006095D0 /* XHCartoonCameraViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -279,6 +337,67 @@
 				AB2F4D23189813CC006095D0 /* MenuBackground@2x.png */,
 			);
 			path = XHRootViewControllerImages;
+			sourceTree = "<group>";
+		};
+		AB2F4D3E189814E4006095D0 /* QBImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				AB2F4D3F189814E4006095D0 /* QBAssetsCollectionCheckmarkView.h */,
+				AB2F4D40189814E4006095D0 /* QBAssetsCollectionCheckmarkView.m */,
+				AB2F4D41189814E4006095D0 /* QBAssetsCollectionFooterView.h */,
+				AB2F4D42189814E4006095D0 /* QBAssetsCollectionFooterView.m */,
+				AB2F4D43189814E4006095D0 /* QBAssetsCollectionOverlayView.h */,
+				AB2F4D44189814E4006095D0 /* QBAssetsCollectionOverlayView.m */,
+				AB2F4D45189814E4006095D0 /* QBAssetsCollectionViewCell.h */,
+				AB2F4D46189814E4006095D0 /* QBAssetsCollectionViewCell.m */,
+				AB2F4D47189814E4006095D0 /* QBAssetsCollectionViewController.h */,
+				AB2F4D48189814E4006095D0 /* QBAssetsCollectionViewController.m */,
+				AB2F4D49189814E4006095D0 /* QBAssetsCollectionViewLayout.h */,
+				AB2F4D4A189814E4006095D0 /* QBAssetsCollectionViewLayout.m */,
+				AB2F4D4B189814E4006095D0 /* QBImagePickerController.h */,
+				AB2F4D4C189814E4006095D0 /* QBImagePickerController.m */,
+				AB2F4D4D189814E4006095D0 /* QBImagePickerGroupCell.h */,
+				AB2F4D4E189814E4006095D0 /* QBImagePickerGroupCell.m */,
+				AB2F4D4F189814E4006095D0 /* QBImagePickerThumbnailView.h */,
+				AB2F4D50189814E4006095D0 /* QBImagePickerThumbnailView.m */,
+				AB2F4D51189814E4006095D0 /* Resources */,
+			);
+			name = QBImagePickerController;
+			path = XHMoive/Vendor/QBImagePickerController;
+			sourceTree = "<group>";
+		};
+		AB2F4D51189814E4006095D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB2F4D52189814E4006095D0 /* QBImagePickerController.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB2F4D55189814E4006095D0 /* XHItemScrollToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				AB2F4D56189814E5006095D0 /* XHItem.h */,
+				AB2F4D57189814E5006095D0 /* XHItem.m */,
+				AB2F4D58189814E5006095D0 /* XHItemScrollToolBar.h */,
+				AB2F4D59189814E5006095D0 /* XHItemScrollToolBar.m */,
+				AB2F4D5A189814E5006095D0 /* XHItemView.h */,
+				AB2F4D5B189814E5006095D0 /* XHItemView.m */,
+			);
+			name = XHItemScrollToolBar;
+			path = XHMoive/Vendor/XHItemScrollToolBar;
+			sourceTree = "<group>";
+		};
+		AB2F4D6F18981517006095D0 /* XHEaseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				AB2F4D7018981517006095D0 /* XHEaseTableView.h */,
+				AB2F4D7118981517006095D0 /* XHEaseTableView.m */,
+				AB2F4D7218981517006095D0 /* XHFilterItem.h */,
+				AB2F4D7318981517006095D0 /* XHFilterItem.m */,
+			);
+			name = XHEaseTableView;
+			path = XHMoive/Vendor/XHEaseTableView;
 			sourceTree = "<group>";
 		};
 		AB39F16B18980E5C0014D660 = {
@@ -416,6 +535,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 			);
 			mainGroup = AB39F16B18980E5C0014D660;
 			productRefGroup = AB39F17518980E5C0014D660 /* Products */;
@@ -469,6 +589,7 @@
 				AB2F4D2C189813CC006095D0 /* Filter4.png in Resources */,
 				AB2F4D2B189813CC006095D0 /* Filter3.png in Resources */,
 				AB2F4D32189813CC006095D0 /* image_border.png in Resources */,
+				AB2F4D65189814E5006095D0 /* QBImagePickerController.strings in Resources */,
 				AB2F4D2D189813CC006095D0 /* Filter5.png in Resources */,
 				AB2F4D2E189813CC006095D0 /* Filter6.png in Resources */,
 				AB2F4D2F189813CC006095D0 /* Filter7.png in Resources */,
@@ -501,10 +622,26 @@
 			files = (
 				AB2F4D3D189813E1006095D0 /* XHCustomNavigationController.m in Sources */,
 				AB2F4CFD18981346006095D0 /* XHRootViewController.m in Sources */,
+				AB2F4D61189814E5006095D0 /* QBAssetsCollectionViewLayout.m in Sources */,
+				AB2F4D5E189814E5006095D0 /* QBAssetsCollectionOverlayView.m in Sources */,
+				AB2F4D63189814E5006095D0 /* QBImagePickerGroupCell.m in Sources */,
+				AB2F4D68189814E5006095D0 /* XHItemView.m in Sources */,
+				AB2F4D7518981517006095D0 /* XHFilterItem.m in Sources */,
 				AB2F4CFC18981346006095D0 /* XHBaseViewController.m in Sources */,
+				AB2F4D5C189814E5006095D0 /* QBAssetsCollectionCheckmarkView.m in Sources */,
 				AB2F4D0518981377006095D0 /* UIButton+XHImageTextPosition.m in Sources */,
 				AB39F18818980E5C0014D660 /* AppDelegate.m in Sources */,
+				AB2F4D67189814E5006095D0 /* XHItemScrollToolBar.m in Sources */,
 				AB2F4D0718981377006095D0 /* UINavigationController+XHNavigationControllerHiddenShowBug.m in Sources */,
+				AB2F4D60189814E5006095D0 /* QBAssetsCollectionViewController.m in Sources */,
+				AB2F4D5F189814E5006095D0 /* QBAssetsCollectionViewCell.m in Sources */,
+				AB2F4D7418981517006095D0 /* XHEaseTableView.m in Sources */,
+				AB2F4D6D189814F5006095D0 /* XHBaseCameraViewController.m in Sources */,
+				AB2F4D66189814E5006095D0 /* XHItem.m in Sources */,
+				AB2F4D64189814E5006095D0 /* QBImagePickerThumbnailView.m in Sources */,
+				AB2F4D62189814E5006095D0 /* QBImagePickerController.m in Sources */,
+				AB2F4D6E189814F5006095D0 /* XHCartoonCameraViewController.m in Sources */,
+				AB2F4D5D189814E5006095D0 /* QBAssetsCollectionFooterView.m in Sources */,
 				AB39F18418980E5C0014D660 /* main.m in Sources */,
 				AB2F4D0618981377006095D0 /* UIDevice+XHDevices.m in Sources */,
 			);
@@ -534,6 +671,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		AB2F4D52189814E4006095D0 /* QBImagePickerController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2F4D53189814E4006095D0 /* en */,
+				AB2F4D54189814E4006095D0 /* ja */,
+			);
+			name = QBImagePickerController.strings;
+			sourceTree = "<group>";
+		};
 		AB39F18018980E5C0014D660 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -630,6 +776,7 @@
 		AB39F1A118980E5C0014D660 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -640,6 +787,7 @@
 					"../framework/**",
 				);
 				INFOPLIST_FILE = "XHMoive/XHMoive-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -648,6 +796,7 @@
 		AB39F1A218980E5C0014D660 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -658,6 +807,7 @@
 					"../framework/**",
 				);
 				INFOPLIST_FILE = "XHMoive/XHMoive-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
