@@ -138,7 +138,7 @@ typedef NS_ENUM(NSInteger, XHCartoonType) {
     [self _setupViewFrame:cameraButtonFrame inView:_cameraButton];
     [_cameraButton addTarget:self action:@selector(_pushNewViewController:) forControlEvents:UIControlEventTouchUpInside];
     _cameraButton.tag = kXHCartoonCamera;
-    [_cameraButton setImage:[UIImage imageNamed:@"meicon.png"] imagePosition:kXHHorizontalDirection withTitle:NSLocalizedString(@"漫画镜头", @"漫画镜头") forState:UIControlStateNormal];
+    [_cameraButton setImage:[UIImage imageNamed:@"meicon.png"] imagePosition:kXHHorizontalDirection withTitle:NSLocalizedString(@"相机", @"相机") forState:UIControlStateNormal];
     [_cameraButton setBackgroundImage:[UIImage imageNamed:@"MenuBackground"] forState:UIControlStateNormal];
     
     
@@ -147,7 +147,7 @@ typedef NS_ENUM(NSInteger, XHCartoonType) {
     [self _setupViewFrame:gridButtonFrame inView:_gridButton];
     [_gridButton addTarget:self action:@selector(_pushNewViewController:) forControlEvents:UIControlEventTouchUpInside];
     _gridButton.tag = kXHGridPuzzle;
-    [_gridButton setImage:[UIImage imageNamed:@"meicon.png"] imagePosition:kXHHorizontalDirection withTitle:NSLocalizedString(@"关于我们", @"关于我们") forState:UIControlStateNormal];
+    [_gridButton setImage:[UIImage imageNamed:@"meicon.png"] imagePosition:kXHHorizontalDirection withTitle:NSLocalizedString(@"微电影", @"微电影") forState:UIControlStateNormal];
     [_gridButton setBackgroundImage:[UIImage imageNamed:@"MenuBackground"] forState:UIControlStateNormal];
     
     self.videoButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -155,7 +155,7 @@ typedef NS_ENUM(NSInteger, XHCartoonType) {
     [self _setupViewFrame:videoButtonFrame inView:_videoButton];
     [_videoButton addTarget:self action:@selector(_pushNewViewController:) forControlEvents:UIControlEventTouchUpInside];
     _videoButton.tag = kXHCartoonVideo;
-    [_videoButton setImage:[UIImage imageNamed:@"meicon.png"] imagePosition:kXHHorizontalDirection withTitle:NSLocalizedString(@"关于我们", @"关于我们") forState:UIControlStateNormal];
+    [_videoButton setImage:[UIImage imageNamed:@"meicon.png"] imagePosition:kXHHorizontalDirection withTitle:NSLocalizedString(@"四格图纸", @"四格图纸") forState:UIControlStateNormal];
     [_videoButton setBackgroundImage:[UIImage imageNamed:@"MenuBackground"] forState:UIControlStateNormal];
     
     [_containarView addSubview:self.cameraButton];
